@@ -3,7 +3,7 @@
 This is an update for the electron version (1.6.11), webpack version (3.5.4), latest VueJS version (2.4.2) and the latest Firebase SDK (4.2.0) for the tutorial by [coligo](http://coligo.io/bookmarking-app-electron-vuejs-firebase/)
 
 ### Clone the repository
-``` git clone https://github.com/giddyeffects/bookmarking_app <your_folder>
+``` git clone https://github.com/giddyeffects/bookmarking_app <your_folder>```
 ### Setup Firebase database config file
  Create a file called config.js in the folder **app/store/** with contents below
 ```javascript
