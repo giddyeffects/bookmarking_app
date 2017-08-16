@@ -11,20 +11,32 @@ module.exports = {
 		loaders: [
 			{
 				test: /\.vue$/,
-				loader: 'vue'
+				loader: 'vue-loader'
 			},
 			{
 				test: /\.js$/,
-				loader: 'babel',
+				loader: 'babel-loader',
 				exclude: /node_modules/
 			}
 		]
 	},
-	babel: {
-		"presets": ["es2015"],
-		"plugins": ["transform-runtime"]
-	},
+	
 	plugins: [
-		new webpack.ExternalPlugin('commonjs',['electron'])
-	]
+		new webpack.ExternalsPlugin('commonjs',['electron']),
+
+		new webpack.LoaderOptionsPlugin({
+			options: {
+				babel: {
+					"presets": ["es2015"],
+					"plugins": ["transform-runtime"]
+				},
+			}
+		})
+	],
+
+	resolve: {
+	    alias: {
+	      'vue$': 'vue/dist/vue.esm.js' // 'vue/dist/vue.common.js' for webpack 1
+	    }
+	}
 }
