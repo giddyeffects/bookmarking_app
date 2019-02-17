@@ -31,6 +31,7 @@ let categories = {} //local copies
 let bookmarks = {} //local copies
 
 //change this to use child_added, child_removed, child_changed
+//using categoriesRef.on('child_added') and bookmarksRef('child_added') functions etc
 
 db.on('value', (snapshot) => {
 	var bookmarkData = snapshot.val()

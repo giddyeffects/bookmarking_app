@@ -1,0 +1,19 @@
+{
+  "bookmarks" : {
+    "-Kre8pSvJY_VoIa7U0_7" : {
+      "category" : "School",
+      "title" : "Strathmore - eLearning",
+      "url" : "https://elearning.strathmore.edu"
+    },
+    "-KrfOsVMFUGMrfwqzMJR" : {
+      "category" : "IoT",
+      "title" : "Raspberry Pi",
+      "url" : "htttps://www.raspberrypi.org"
+    }
+  },
+  "categories" : {
+    "IoT" : "pink",
+    "School" : "red",
+    "Uncategorized" : "white"
+  }
+}

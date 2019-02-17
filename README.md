@@ -5,7 +5,7 @@ This is an update for the electron version (1.6.11), webpack version (3.5.4), la
 ### Clone the repository
 ``` git clone https://github.com/giddyeffects/bookmarking_app <your_folder>```
 ### Setup Firebase database config file
- Create a file called config.js in the folder **app/store/** with contents below
+ Create a file called **config.js** in the folder **app/store/** with contents below
 ```javascript
 let config = {
     apiKey: "<Your API KEY>",
