@@ -1,6 +1,6 @@
 {
   "name": "bookmark",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple bookmarking app",
   "main": "main.js",
   "scripts": {
@@ -11,8 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "firebase": "^4.13.1",
-    "jquery": "^3.3.1",
-    "vue": "^2.6.6"
+    "jquery": "^3.5.1",
+    "vue": "^2.6.11"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
@@ -22,11 +22,11 @@
     "babel-runtime": "^5.8.38",
     "css-loader": "^0.28.11",
     "electron-prebuilt": "^1.4.13",
-    "vue-hot-reload-api": "^2.3.2",
+    "vue-hot-reload-api": "^2.3.4",
     "vue-html-loader": "^1.2.4",
     "vue-loader": "^13.7.3",
     "vue-style-loader": "^4.1.2",
-    "vue-template-compiler": "^2.6.6",
+    "vue-template-compiler": "^2.6.11",
     "webpack": "^4.29.4",
     "webpack-dev-server": "^3.1.14"
   }
